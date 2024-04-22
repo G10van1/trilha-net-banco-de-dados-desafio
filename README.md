@@ -46,13 +46,20 @@ Você deverá criar diversas consultas, com o objetivo de retornar os dados a se
 
 ![Exercicio 1](Imagens/1.png)
 
+**Resposta:** SELECT Nome, Ano FROM Filmes
+
 ## 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
 
 ![Exercicio 2](Imagens/2.png)
 
+**Resposta:** SELECT Nome, Ano FROM Filmes ORDER BY Ano
+
 ## 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
 
 ![Exercicio 3](Imagens/3.png)
+
+**Resposta:** 1. SELECT Nome, Ano, Duracao FROM Filmes WHERE Nome = 'De Volta para o Futuro'
+              2. SELECT Nome, Ano, Duracao FROM Filmes WHERE Nome LIKE 'De%Futuro'
 
 ## 4 - Buscar os filmes lançados em 1997
 
